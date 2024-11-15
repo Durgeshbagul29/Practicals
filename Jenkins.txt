@@ -1,0 +1,41 @@
+Terminal
+
+sudo systemctl status jenkins.
+
+New Terminal.
+
+ngrok http 8080.
+
+Here we see the status of ngrok from that click on a foro forwarding link and open a link on browser for copy the link tipo upto freere and paste it on a browser and open it.
+
+Click on visit site
+
+username kkwagh
+
+password srvonj
+
+Github
+
+login on a Github Con new window) Open the repository that we want to build on a jenkins Copy the repo/project link from code (http).
+
+Jenkins
+
+Click on new item Enter item nome (eg.d select freestyle Project Click OK from Source code Management Select gits Paste the Git repo url (that copied from githu From Branches to Build (write main instead of master) from Build Triggers select GitHub hook trigger for GITSem polling → Click Apply Save.
+
+Scanned with OKEN Scanner
+
+classmate
+
+Date
+
+GitHub
+
+On sepa (Rick Setting Click Webhooks
+
+Add webhook On payload URL (copy the
+
+URL from jenkins or Terminal upto free.app and Paste here) (on this URL add a git /github-webhook / after free.app)→ Select Content type (application/json)→ select send me everything (lick Add Webhook then Refresh (see green tick) Click on Build Now Cafter successful build).
+
+Click Workspace and Optional (found errer) run the htmd file
+
+Click config Build steps select Execute shell Write command cp -r*/var/www/html/ apply of sove Click Build Now.
