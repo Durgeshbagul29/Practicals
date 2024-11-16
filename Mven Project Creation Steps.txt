@@ -9,6 +9,9 @@ Mven Project Creation Steps
 4) create maven project : -  
 	mvn archetype:generate  -DgroupId=com.example.demo  -DartifactId=DemoProject  -DarchetypeArtifactId=maven-archetype-quickstart
    	 -DinteractiveMode=false
+
+	mvn archetype:generate -DgroupId=com.example -DartifactId=my-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
 5) entire this project : -  
 	cd DemoProject
 6) view available files : - 
